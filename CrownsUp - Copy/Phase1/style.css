@@ -1,0 +1,237 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+nav {
+    border-bottom-color: aliceblue;
+    border-radius: 10px;
+}
+
+
+.aboutUs {
+    background: #bee7f9;
+    padding: 20px;
+   border-radius:10px;
+    margin: 10px;
+    box-shadow: 20px;
+    font-family: "quattrocento-sans";
+    font-weight: bold;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 15px;
+    /*border-style: dashed;*/
+}
+
+.aboutUs img{
+	
+	margin: 0px 10px 7px 0px;
+	border-style: dashed;
+    border-color:aliceblue;
+    box-shadow: 20px;
+  
+
+
+}
+
+
+
+
+.bckgrnd{
+	
+	 margin: 0;
+     background: url("../img/CUVisualElements/Patterns/Diamonds/Blue/jpg/DiamondPattern-22.jpg") repeat;
+	 /*background: url("../../../CuFiles/CroppedDownBckGrnds/OrangeRedKeyPattern.png") repeat;*/
+	 background-size: 122px, 155px;
+	 background-attachment: fixed;
+	
+}
+
+/* Crown Blue background */ 
+
+.blueCrownBack{
+	
+	 margin: 0;
+     background: url("../img/CUVisualElements/CroppedDownBckGrnds/BlueCrownPattern.png") repeat;
+	
+	 background-attachment: fixed;
+	 background-size:  600px, 2970px;
+	
+}
+
+.pinkKeyBack{
+	
+	 margin: 0;
+     background: url("../../../CuFiles/CroppedDownBckGrnds/PinkKeyPattern.png") repeat;
+	
+	 background-attachment: fixed;
+	 background-size:  120px, 590px;
+		
+}
+
+/* Crown Yellow background */ 
+
+.YellowCrownBack{
+	
+	
+	
+}
+
+/* Orang Key background */ 
+
+.OrangeCrownBack{
+	
+	
+	
+}
+
+
+
+
+
+
+#launchModal{
+	
+	font-family:"quattrocento-sans";
+	font-weight: bold;
+}
+
+
+/*#logo{
+	
+	
+	background-image:url(../img/CULogo-12.jpg);
+	
+	background-color: transparent;
+	width : 100%;
+	height: 100%;
+	 
+	  display: block;
+	  position: relative;
+}*/
+.logo img {
+	
+	
+	clear:both;   
+	padding: 10px;
+}
+
+/*#social{
+	height: 100px;
+	width: 100px;
+	
+	position:relative;
+   
+    left: 15px;
+    font-size: 18px;
+	padding: 10px;
+}*/
+	
+
+
+
+
+
+.camp {
+	
+	background: #fae820;
+	padding: 10px;
+	margin: 10px;
+
+
+
+	
+	
+	
+}
+
+#carouselimage2{
+	width: 85%;
+	padding: 20px;
+	
+	margin: auto;
+	
+	
+}
+
+
+.carousel-control-next{
+	
+	
+}
+
+
+.csoon {
+    background: #F13E37;
+    align-content: center;
+    margin: 10px;
+    box-shadow: 5px 15px 25px;
+    border-radius: 10px;
+}
+
+    .csoon p {
+        font-family: "quattrocento-sans";
+        font-weight: bold;
+        margin: auto;
+    }
+
+
+.donate{
+	
+	background: #0e3964;
+	font-family:"quattrocento-sans";
+	font-weight: bold;
+	
+	padding: 10px;
+	margin: 10px;
+
+}
+
+
+
+/*And Who we are*/
+
+.whatWeDo{
+	
+    background: #ECC3B2;
+	padding: 20px;
+	margin: 10px;
+	font-family:"quattrocento-sans";
+	font-weight: bold;
+
+	flex-wrap: wrap;
+	box-shadow: 5px 5px 15px;
+	/*border-style: dashed;*/
+	
+}
+
+.whatWeDo img{
+	
+	margin: 0px 10px 7px 0px;
+	
+}
+ 
+.whatWeDo .card{
+   
+	
+ 	background-color: #f4a693;	
+ 	 	
+	
+}
+
+
+
+
+
+
+
+
+.sidebarCont {
+    background: #F13E37;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    box-shadow: 5px 5px 15px;
+    border-radius: 10px;
+}
+
+#f4a693 {
+}
