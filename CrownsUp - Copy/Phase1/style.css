@@ -2,16 +2,46 @@
 /* CSS Document */
 
 
+
+
+
+
+nav ul {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.navbar-nav > li {
+    border-right: 1px solid #000;
+}
+
+    .navbar-nav > li:last-child {
+        border: none;
+    }
+
+
+
 nav {
     border-bottom-color: aliceblue;
-    border-radius: 10px;
+    align-content: center;
+    box-shadow: 5px 15px 25px;
+    border-radius:2px;
+  
 }
+
+
+.navbar-logo{
+    position:absolute;
+}
+
+
 
 
 .aboutUs {
     background: #bee7f9;
     padding: 20px;
-   border-radius:10px;
+    border-radius: 10px;
     margin: 10px;
     box-shadow: 20px;
     font-family: "quattrocento-sans";
@@ -34,16 +64,8 @@ nav {
 
 
 
+/**/
 
-.bckgrnd{
-	
-	 margin: 0;
-     background: url("../img/CUVisualElements/Patterns/Diamonds/Blue/jpg/DiamondPattern-22.jpg") repeat;
-	 /*background: url("../../../CuFiles/CroppedDownBckGrnds/OrangeRedKeyPattern.png") repeat;*/
-	 background-size: 122px, 155px;
-	 background-attachment: fixed;
-	
-}
 
 /* Crown Blue background */ 
 
@@ -152,17 +174,22 @@ nav {
 	
 }
 
-
-.carousel-control-next{
-	
-	
+.bckgrnd {
+    margin: 0;
+    background: url("../img/CUVisualElements/Patterns/Diamonds/Blue/jpg/DiamondPattern-22.jpg") repeat;
+    /*background: url("../../../CuFiles/CroppedDownBckGrnds/OrangeRedKeyPattern.png") repeat;*/
+    background-size: 122px, 155px;
+    background-attachment: fixed;
 }
+
+
+
 
 
 .csoon {
     background: #F13E37;
     align-content: center;
-    margin: 10px;
+    margin:auto;
     box-shadow: 5px 15px 25px;
     border-radius: 10px;
 }
