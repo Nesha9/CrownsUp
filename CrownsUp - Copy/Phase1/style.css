@@ -3,14 +3,11 @@
 
 
 
-
-
-
-nav ul {
-    display: flex;
-    align-items: flex-end;
-    
+.navbar-brand {
+    padding: 10px 60px 0px 10px;
+    margin-right:20px
 }
+
 
 .navbar-nav > li {
     border-right: 1px solid #000;
@@ -21,10 +18,14 @@ nav ul {
     }
 
 
+.topnav-right {
+    float: right;
+}
+
 
 nav {
     border-bottom-color: aliceblue;
-    align-content: center;
+   
     box-shadow: 5px 15px 25px;
     border-radius:2px;
   
@@ -35,6 +36,11 @@ nav {
     position:absolute;
 }
 
+
+.pullItRight{
+
+   position:relative;
+}
 
 
 
