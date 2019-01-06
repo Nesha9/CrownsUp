@@ -32,13 +32,13 @@
 
 	
 
-<div class="bckgrnd ">
+<body class="bckgrnd">
 
 
 
 <!--NAVBAR-------------------------------------------------------------------->	
 
-  <br>
+  
 
 
 
@@ -46,10 +46,10 @@
      
 
       
-    <nav class="col-10 navbar border  navbar-light h4  navbar-expand-lg  bg-faded " style=" background-color: #FCD2BF; font-size:30px; font-family: quattrocento-sans;">
+    <nav class="navbar col-10  border  navbar-light h4 sticky-top p-2 navbar-expand-lg  bg-faded " style=" background-color: #FCF8E3; font-size:30px; font-family: quattrocento-sans;">
 
 
-        <a href="index.html" class="navbar-brand mx-auto"> <img src="../img/LogoDarkShadow.png" height="220"> </a> <!-- logo that leads to home page -->
+        <a href="index.html" class="navbar-brand mx-auto"> <img src="../img/LogoDarkShadow.png" height="250"> </a> <!-- logo that leads to home page -->
 
 
 
@@ -59,27 +59,28 @@
         </button>
 
 
-        <div class="mr-auto" id="allNavItems"> <!--encompassing class of navbar links and social media and contact buttn-->
+        <div class="mr-auto"> <!--encompassing class of navbar links and social media and contact buttn-->
+
+
+            <span class="mr-auto">
 
 
 
 
 
-        
+                <div id="socialMedia" class="text-center">
 
+                    <a href="https://www.facebook.com/crownsupyouth/" target="_blank"><img src="../img/facebook.png"></a>
 
-            <span class="d-flex justify-content-end" >
+                    <a href="https://www.instagram.com/crownsupyouth" target="_blank"><img src="../img/instagram-logo.png" height="48"></a>
 
-                <a href="https://www.facebook.com/crownsupyouth/" target="_blank"><img class="p-2" src="../img/facebook.png" height="55"></a>
+                    <br>
 
-                <a href="https://www.instagram.com/crownsupyouth" target="_blank"><img class="p-2" src="../img/instagram-logo.png" height="55"></a>
+                    <button type="button" class="m-2 btn text-center btn-md btn-info" id="launchModal" data-toggle="modal" data-target="#myModal" data-show="true">
+                        Contact Us
+                    </button>
 
-
-
-                <button type="button" class="m-2 btn text-center btn-md  btn-outline-dark" style="font-size:20px" id="launchModal" data-toggle="modal" data-target="#myModal" data-show="true">
-                    Contact Us
-                </button>
-
+                </div>
 
 
                 <!--contact modal-->
@@ -88,14 +89,14 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h3 class="modal-title"> Contact </h3>
-                                <button type="button" class="close"  data-dismiss="modal" aria-label="Close."></button>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close."></button>
 
 
                             </div>
 
                             <div class="modal-body">
                                 <p>
-                                    Phone – 615-485-0790 <br>
+                                    Phone – 615-485-0790<br>
                                     Email – Ashley.mcewen@crownsupyouth.com <br>
                                     Facebook - https://www.facebook.com/crownsupyouth/ <br>
                                     Instagram - Crownsupyouth <br>
@@ -104,24 +105,35 @@
 
                             </div>
 
-                           
-                            <div class="modal-footer">
 
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                    Close.
-                                </button>
+
+                        </div>
+						<div class="modal-footer">
+
+						
+                    </div>
+					
+					
+                            
 
 
                             </div>
-
-                        </div>
-                    </div>
+					
+                                <button type="button" class="btn btn-secondary close " data-dismiss="modal" aria-label="close">
+									
+                                    Close.
+                                </button>
+					
                 </div><!--end of modal setup-->
 
+             
 
-            </span>
-        
       
+
+
+
+
+        </span>
 
         <span class="mr-auto">
 
@@ -141,7 +153,7 @@
         </span>
 
 
-        <span style="background-color:#F4A693; font-size:24px; " class=" d-flex justify-content-end  mr-auto">
+        <span style="background-color:wheat; " class="  d-flex justify-content-end  mr-auto">
 
             <ul class=" navbar-nav  ">
                 <li class="nav-item">
@@ -174,12 +186,11 @@
 
 
     </nav>
-
-    
-
+\
 
 
-    <br>
+
+
 
 
             <!--
@@ -241,7 +252,9 @@
         -->
 
 
-            <div class="csoon col-10 ">
+            <div class="csoon  col-11 ">
+
+
 
 
                 <p class="display-1 text-white  p-5">
@@ -285,7 +298,7 @@
 
 
 
-</div>
+</body>
 
 	
 </html>

@@ -1,31 +1,39 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 
-#allNavItems {
-    align-items: center;
+.modal button
+{
+z-index: -1;	
 }
-
 
 .navbar-brand {
-
+    padding: 10px 60px 0px 10px;
+    margin-right:20px
 }
 
-.button {
-    background-color: wheat; 
+
+.navbar-nav > li {
+    border-right: 1px solid #000;
 }
 
-.modal-backdrop {
-    z-index: 0 !important;
+    .navbar-nav > li:last-child {
+        border: none;
+    }
+
+
+.topnav-right {
+    float: right;
 }
 
- nav {
-     align-content: center;
-     margin:auto;
-     box-shadow: 13px 12px 25px;
-     border-radius: 10px;
+
+nav {
+    border-bottom-color: aliceblue;
    
-           
-      }
+    box-shadow: 5px 15px 25px;
+    border-radius:10px;
+	margin: auto;
+  
+}
 
 
 .navbar-logo{
@@ -33,6 +41,10 @@
 }
 
 
+.pullItRight{
+
+   position:relative;
+}
 
 
 
@@ -65,13 +77,16 @@
 /**/
 
 
-/* Crown Blue background */
+/* Crown Blue background */ 
 
-.blueCrownBack {
-    margin: 0;
-    background: url(("../img/CUVisualElements/CroppedDownBckGrnds/BlueCrownPattern.png")) repeat;
-    background-attachment: fixed;
-    background-size: 600px, 2970px;
+.blueCrownBack{
+	
+	 margin: 0;
+     background: url("../img/CUVisualElements/CroppedDownBckGrnds/BlueCrownPattern.png") repeat;
+	
+	 background-attachment: fixed;
+	 background-size:  600px, 2970px;
+	
 }
 
 .pinkKeyBack{
@@ -163,18 +178,18 @@
 #carouselimage2{
 	width: 85%;
 	padding: 20px;
+	
 	margin: auto;
 	
 	
 }
 
 .bckgrnd {
+    margin: 0;
     background: url("../img/CUVisualElements/Patterns/Diamonds/Blue/jpg/DiamondPattern-22.jpg") repeat;
     /*background: url("../../../CuFiles/CroppedDownBckGrnds/OrangeRedKeyPattern.png") repeat;*/
     background-size: 122px, 155px;
     background-attachment: fixed;
-   
-    margin:auto;
 }
 
 
@@ -184,11 +199,9 @@
 .csoon {
     background: #F13E37;
     align-content: center;
-   
-    box-shadow: 10px 15px 25px;
+    margin:auto;
+    box-shadow: 5px 15px 25px;
     border-radius: 10px;
-   
-    margin: auto;
 }
 
     .csoon p {
@@ -226,6 +239,7 @@
 	/*border-style: dashed;*/
 	
 }
+
 .whatWeDo img{
 	
 	margin: 0px 10px 7px 0px;
