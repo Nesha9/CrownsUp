@@ -1,11 +1,32 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 
-.modal button
-{
-z-index: -1;	
+
+body{
+	position: relative;
+	z-index: -1;
+	
 }
 
+btn
+{
+
+	position: relative;
+	z-index: -100;
+}
+
+
+.modal-content
+{
+ 
+	
+}
+
+	
+ul
+{
+clear: both;
+}
 .navbar-brand {
     padding: 10px 60px 0px 10px;
     margin-right:20px
@@ -115,6 +136,18 @@ nav {
 	
 }
 
+.navbar-collapse {
+   
+}
+
+
+
+
+
+.table {
+float: right;
+}
+
 
 
 
@@ -146,16 +179,13 @@ nav {
 	padding: 10px;
 }
 
-/*#social{
-	height: 100px;
-	width: 100px;
+#socialMedia{
 	
-	position:relative;
+	
+	
    
-    left: 15px;
-    font-size: 18px;
-	padding: 10px;
-}*/
+   
+}
 	
 
 
@@ -271,4 +301,8 @@ nav {
 }
 
 #f4a693 {
+}
+.P-4 {
+}
+.M-2 {
 }
